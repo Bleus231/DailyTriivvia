@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array name="difficulty_options">
+            <item>Random</item>
+            <item>Easy</item>
+            <item>Medium</item>
+            <item>Hard</item>
+        </string-array>
+
+    <string-array name="category_selection">
+        <item>Random</item>
+        <item>General Knowledge</item>
+        <item>Entertainment: Books</item>
+        <item>Entertainment: Film</item>
+        <item>Entertainment: Music</item>
+        <item>Entertainment: Musical and Theatres</item>
+        <item>Entertainment: Television</item>
+        <item>Entertainment: Video Games</item>
+        <item>Entertainment: Board Games</item>
+        <item>Entertainment: Comics</item>
+        <item>Entertainment: Japanese Anime and manga</item>
+        <item>Entertainment: Cartoon and Animations</item>
+        <item>Science and Nature</item>
+        <item>Science: Computers</item>
+        <item>Science: Mathematics</item>
+        <item>Science: Gadgets</item>
+        <item>Mythology</item>
+        <item>Sports</item>
+        <item>Geography</item>
+        <item>Celebrities</item>
+        <item>History</item>
+        <item>Politics</item>
+        <item>Art</item>
+        <item>Animals</item>
+        <item>Vehicles</item>
+    </string-array>
+
+</resources>

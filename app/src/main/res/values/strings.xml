@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">DailyTriivvia</string>
+    <string name="enter_username">Username</string>
+    <string name="get_started">Get Started</string>
+    <string name="enter_password">Password</string>
+    <string name="login">Login</string>
+    <string name="play">Play</string>
+    <string name="setting">Settings</string>
+    <string name="question_num">Number of questions</string>
+    <string name="option_selection">Option selection</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="multiple_choice">Multiple choice</string>
+    <string name="seekBar_num_of_questions">Number of questions: 0</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="guest">Guest</string>
+    <string name="category_selection">Category Selction</string>
+    <string name="save">Save</string>
+    <string name="random_quiz">Quick Play</string>
+    <string name="sign_out">Sign out</string>
+    <string name="game_over">Game Over</string>
+    <string name="results">"Score: "</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="play_again">Play Again</string>
+    <string name="edit_profile">Edit Profile</string>
+
+
+</resources>

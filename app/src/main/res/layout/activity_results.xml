@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ResultsActivity"
+    android:background="@drawable/cartoon4">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/play_again_button"
+        android:layout_width="103dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="152dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_background"
+        android:text="@string/play_again"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/main_menu_button"
+        android:layout_width="131dp"
+        android:layout_height="63dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="76dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_background"
+        android:text="@string/main_menu"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewQuestions"
+        android:layout_width="392dp"
+        android:layout_height="237dp"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.668"
+        tools:listitem="@layout/item_question" />
+
+    <TextView
+        android:id="@+id/results_text_view"
+        android:layout_width="206dp"
+        android:layout_height="42dp"
+        android:fontFamily="@font/chela_one"
+        android:gravity="start|center_vertical"
+        android:text="@string/results"
+        android:textColor="@color/cloud_white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.417"
+        tools:ignore="NotSibling" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/mainProfileImage2"
+        android:layout_width="182dp"
+        android:layout_height="170dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile_picx100"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent" />
+
+    <TextView
+        android:id="@+id/game_over_text_view"
+        android:layout_width="206dp"
+        android:layout_height="42dp"
+        android:fontFamily="@font/chela_one"
+        android:gravity="center"
+        android:text="@string/game_over"
+        android:textColor="@color/cloud_white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043"
+        tools:ignore="NotSibling" />
+</androidx.constraintlayout.widget.ConstraintLayout>
